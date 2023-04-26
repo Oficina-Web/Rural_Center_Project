@@ -1,7 +1,7 @@
 <?php
 class UsuariosModel
 {
-    public $usua_nome;
+    public $usua_nome, $usua_email,$usua_telefone, $usua_senha, $usua_tipo;
 
     public function save()
     {
@@ -10,3 +10,5 @@ class UsuariosModel
         $dao->insert($this);
     }
 }
+
+?>
