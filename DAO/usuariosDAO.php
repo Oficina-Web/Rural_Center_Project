@@ -25,10 +25,14 @@ class UsuariosDAO
 
     public function update(UsuariosModel $model)
     {
+        
     }
 
     public function select()
     {
+        $sql = "SELECT * FROM usuarios ORDER BY usua_id";
+        $stmt = $this->conexao->prepare($sql);
+        $stmt->execute();
     }
 }
 ?>
