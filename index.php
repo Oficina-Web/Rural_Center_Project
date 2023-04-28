@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Video de conexão com o banco e estrutura do projeto
+ * 
+ * https://www.youtube.com/watch?v=7_eSjWJS_bg */
 include 'controller/rotasController.php';
 include 'controller/usuariosController.php';
 
